@@ -63,6 +63,7 @@ RCT_EXPORT_METHOD(complete:(NSNumber *_Nonnull)status promiseWithResolver:(RCTPr
         [supportedNetworksMapping setObject:PKPaymentNetworkAmex forKey:@"amex"];
         [supportedNetworksMapping setObject:PKPaymentNetworkMasterCard forKey:@"masterCard"];
         [supportedNetworksMapping setObject:PKPaymentNetworkVisa forKey:@"visa"];
+        [supportedNetworksMapping setObject:PKPaymentNetworkVisa forKey:@"mada"];
     }
     
     if (@available(iOS 9, *)) {
